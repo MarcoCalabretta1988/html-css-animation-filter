@@ -76,10 +76,36 @@
     height: 20px;
 }
 
-/* ESERCIZIO */
+/* ESERCIZIO 6-7-8*/
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+
+
+.well .ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
+.ex-7-img{
+    width: 500px;
+    transition: filter 2s;
+}
+
+.well .ex-7-img:hover{
+    filter: grayscale(100%) blur(5px);
+}
+
+.ex-7-img, .ex-8-img {
+    width: 500px;
+    transition: filter 2s linear, border-radius 2s linear;
+}
+
+.well .ex-8-img:hover{
+    filter: contrast(200%) grayscale(100%);
+    border-radius: 50px;
+}
+
+/* ESERCIZIO 9 */
 
 .ex-9-img {
     margin: 50px 100px;
