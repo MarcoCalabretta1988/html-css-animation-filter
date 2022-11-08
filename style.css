@@ -177,6 +177,7 @@
     text-align: center;
     text-decoration: none;
 }
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -184,7 +185,44 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+    
 }
+
+.ex-12-top-white{
+    animation: alt-move-top 2s linear infinite alternate;
+}
+
+.ex-12-bottom-white{
+    animation: alt-move-bottom 2s linear infinite alternate;
+}
+
+@keyframes alt-move-top{
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: calc(100%- 60px);
+    }
+    100%{
+        left: 65%;
+    }
+ }
+    @keyframes alt-move-bottom{
+        0%{
+            right: 20%;
+        }
+        
+        50%{
+            right: calc(100%- 60px);
+        }
+        100%{
+            right: 65%;
+        }
+    }
+
+
+
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
