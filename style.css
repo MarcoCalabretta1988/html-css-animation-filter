@@ -136,10 +136,34 @@
     }
 }
 
+/* ESERCIZIO 11 */
 
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    font-size: 60px;
+    animation: alfspin 2s;
+}
+
+@keyframes alfspin{
+    0%{
+        transform: rotate(1deg);
+    }
+
+    80%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(1deg);
+    }
+}
+
+
+/* ESERCIZIO 12 E 13 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
