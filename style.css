@@ -247,11 +247,11 @@
             top: -10px;
             left: 10%;
         }
-        30% {
+        25% {
             left: calc(100% - 30px);
             top: -10px;
         }
-        45% {
+        50% {
             left: calc(100% - 30px);
             top: 100%;
         }
@@ -275,11 +275,11 @@
                     bottom: -10px;
                     right: 20%;
                 }
-                30% {
+                25% {
                     right: calc(100% - 30px);
                     bottom: -10px;
                 }
-                45% {
+                50% {
                     right: calc(100% - 30px);
                     bottom: 100%;
                 }
